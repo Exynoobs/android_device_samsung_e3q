@@ -16,7 +16,9 @@ TARGET_OTA_ASSERT_DEVICE := e3q
 TARGET_SCREEN_DENSITY := 450
 
 # Kernel
-TARGET_KERNEL_CONFIG := e3q_defconfig
+TARGET_KERNEL_CONFIG := \
+    gki_defconfig \
+    vendor/pineapple_GKI.config
 
 # Kernel Modules
 BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.recovery))
