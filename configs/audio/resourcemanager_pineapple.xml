@@ -1224,7 +1224,8 @@
             </usecase>
             <usecase>
                 <name>PAL_STREAM_VOIP_RX</name>
-                <priority>4</priority>
+                <priority>3</priority>
+                <snd_device_name>voip-comm-speaker</snd_device_name>
                 <custom-config key="voip_comm">
                     <priority>3</priority>
                     <snd_device_name>voip-comm-speaker</snd_device_name>
@@ -1311,7 +1312,8 @@
           </usecase>
           <usecase>
               <name>PAL_STREAM_VOIP_RX</name>
-              <priority>4</priority>
+              <priority>3</priority>
+              <snd_device_name>voip-comm-handset</snd_device_name>
               <custom-config key="voip_comm">
                   <priority>3</priority>
                   <snd_device_name>voip-comm-handset</snd_device_name>
@@ -1474,7 +1476,8 @@
            </usecase>
            <usecase>
                <name>PAL_STREAM_VOIP_RX</name>
-               <priority>3</priority>
+               <priority>2</priority>
+               <snd_device_name>voip-comm-headset</snd_device_name>
                <samplerate>48000</samplerate>
                <bit_width>16</bit_width>
                <custom-config key="voip_comm">
@@ -1828,7 +1831,8 @@
             </usecase>
             <usecase>
                 <name>PAL_STREAM_VOIP_RX</name>
-                <priority>4</priority>
+                <priority>2</priority>
+                <snd_device_name>voip-comm-usb-headset</snd_device_name>
                 <custom-config key="voip_comm">
                     <priority>2</priority>
                     <snd_device_name>voip-comm-usb-headset</snd_device_name>
