@@ -2073,7 +2073,7 @@
     <sound_trigger_platform_info>
         <common_config>
             <!-- Sound trigger streams common params -->
-            <param lpi_enable="true" />
+            <param lpi_enable="false" />
             <param support_nlpi_switch="true" />
             <param support_device_switch="true" />
             <param enable_debug_dumps="false" />
